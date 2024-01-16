@@ -1,0 +1,33 @@
+#bar{
+    background-color:white;
+    position: sticky;
+    top: 150px;
+}
+#bar ul{
+    margin: 0px;
+}
+#bar ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 64px;
+}
+#bar ul li a{
+    color: black;
+    font-size: 27px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#bar ul li a:hover{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition-timing-function: linear;
+    font-style: italic;
+}
+#bar ul li a p{
+    border-style: ridge;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}

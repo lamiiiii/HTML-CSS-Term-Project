@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Album Travel</title>
+    <link type="text/css" href="Photo_SStyle.css" rel="stylesheet">
+    <style>
+        body {
+        height: 100vh;
+        background-image: url("TBackground.JPG");
+        background-repeat : no-repeat;
+        background-size : cover;
+      }
+        .T button{
+            width: 350px;
+            height: 120px;
+            background-color: white;
+            border-color: rgb(0, 153, 255);
+            border-width: 5px;
+            border-style: dashed;
+            font-family:'Times New Roman', Times, serif;
+            color: black;
+            font-size: 30px;
+            text-align: left;
+            display: block;
+            margin: 40px auto;
+        }
+        .T b{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 35px;
+        }
+        .T button:hover{
+            backface-visibility: visible;
+            transform-origin: 50% 50%;
+            transform: perspective(500px) rotateY(50deg) rotateX(0deg);
+            background-color: rgb(0, 102, 255);
+            border-color: white;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <b><a title="Memory Album" href="../Term_Photo.html"><p id="sub">Memory Album</p></a></b>
+    <b><p title="Travel" id="sub2" style="color: rgb(59, 245, 252);"> - Travel</p></b>
+    <a href="Travel/Jeju.html" target="_self" class="T"><button><b>To Jeju</b><br/>Travel</button></a>
+    <a href="Travel/Busan.html" target="_self" class="T"><button><b>To Busan</b><br/>Travel</button></a>
+    <a href="Travel/Gang-won.html" target="_self" class="T"><button><b>To Gang-won</b><br/>Travel</button></a>
+    <a href="Travel/Hadong.html" target="_self" class="T"><button><b>To Hadong</b><br/>Travel</button></a>
+</body>
+</html>

@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Visitor's Board</title>
+       <link type="text/css" href="Term_Header_Style.css" rel="stylesheet" > <!--제목 style css 외부 참조-->
+       <link type="text/css" href="Term_Bar_Style.css" rel="stylesheet" > <!--메인 bar style css 외부 참조-->
+       <style>
+        form{
+            margin: 50px 0px 0px 700px;
+        }
+       </style>
+    </head>
+    <body>
+        <p title="Main Home" class="header"><a href="Term_Project.html">
+            <span class="he_G">G</span>
+            <span class="he_Y1">Y</span>
+            <span class="he_U">U</span>
+            <span class="he_R">R</span>
+            <span class="he_I">I</span>
+            <span class="he_a">'</span>
+            <span class="he_s">s</span>
+        </a></p>
+        <nav id="bar">
+            <ul>
+                <li><a href="Term_Introduction.html"><b>Introduction</b></a></li>
+                <li><a href="Term_Schedule.html"><b>Schedule</b></a></li>
+                <li><a href="Term_Hobby.html"><b>Hobby</b></a></li>
+                <li><a href="Term_Photo.html"><b>Photo Album</b></a></li>
+                <li><a href="Term_Favorite_Sites.html"><b>Favorite Sites</b></a></li>
+                <li><a href="Term_Quiz.html"><b>Quiz</b></a></li>
+                <li><a href="Term_Visitor.html"><p><b>Visitor's Board</b></p></a></li>
+            </ul>
+        </nav>
+
+        <p style="font-size: 60px; text-align: center; color: rgb(20, 20, 59);"><b>&lt;방문자 게시판&gt;</b></p>
+        <form action="MAILTO:guelee0213@naver.com?SUBJECT='FromMyHompage'" method="post" enctype="text/plain">
+            <h2>홈페이지 방문 날짜는 언제인가요?</h2> 
+            Today Date : <input type="date" name="today">
+            <p></p>
+            <h2>당신은 누구인가요?</h2>
+            <input type="radio" name="Who" value="Student" checked>학생 &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Who" value="Professor">교수님 &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Who" value="Public">일반인 &nbsp;&nbsp;&nbsp;
+            <p></p>
+            <h2>홈페이지 방문 후기는 어떤가요? </h2>
+            <input type="radio" name="Review" value="Very Good" checked>매우 좋다!!! &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Review" value="Good">좋다. &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Review" value="So So">보통이다. &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Review" value="Bad">별로다. &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Review" value="Too Bad">완전 별로다.. &nbsp;&nbsp;&nbsp;
+            <p></p>
+            <h2>어떤 부분이 마음에 들었나요??</h2>
+            <input type="checkbox" name="Develop" value="Design" checked>디자인 &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Develop" value="content">내용 &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Develop" value="combination">구성 &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Develop" value="creativity">창의성 &nbsp;&nbsp;&nbsp;
+            <p></p>
+            <h2>점수를 붙여주세요~!! (0 ~ 100점)</h2>
+            <input type="range" name="point" min="0" max="100">
+            <p></p>
+            <h2>당신도 홈페이지가 있나요? 있다면 주소는 무엇인가요?</h2> 
+            홈페이지 주소: <input type="url" name="myhome">
+            <p></p>
+            <pre>
+                
+
+            </pre>
+            <h1>당신에 대해 알려주세요.</h1>
+            <h2>좋아하는 색은?????</h2>
+            <input type="color" name="color_value" value="#0000ff">
+            <p></p>
+            <h2>생일은???</h2> 
+            Birthday : <input type="datetime-local" name="bdaytime">
+            <p></p>
+            <h2>MBTI는????</h2>
+            <label>MBTI를 직접 입력하세요.
+                <input type="text" list="MBTIlist" name="MBTI">
+                <datalist id="MBTIlist">
+                    <option value="ENFJ">ENFJ</option>
+                    <option value="ENFP">ENFP</option>
+                    <option value="ENTJ">ENTJ</option>
+                    <option value="ENTP">ENTP</option>
+                    <option value="ESFJ">ESFJ</option>
+                    <option value="ESFP">ESFP</option>
+                    <option value="ESTJ">ESTJ</option>
+                    <option value="ESTP">ESTP</option>
+                    <option value="INFJ">INFJ</option>
+                    <option value="INFP">INFP</option>
+                    <option value="INTJ">INTJ</option>
+                    <option value="INTP">INTP</option>
+                    <option value="ISFJ">ISFJ</option>
+                    <option value="ISFP">ISFP</option>
+                    <option value="ISTJ">ISTJ</option>
+                    <option value="ISTP">ISTP</option>
+                </datalist>
+                <p></p>
+            </label>
+            <input type="submit" value="작성완료">
+            <input type="reset" value="다시 작성">
+        </form>
+    </body>
+    </html>

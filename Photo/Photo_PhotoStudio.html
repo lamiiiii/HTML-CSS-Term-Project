@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Album Photo Studio</title>
+    <link type="text/css" href="Photo_SStyle.css" rel="stylesheet" >
+    <style>
+        .size{
+            position: absolute;
+            margin-top: 50px;
+            width: 330px;
+            height: 500px;
+            border: 10px;
+        }
+        .size:hover{
+            width: 420px;
+            height: 630px;
+            border-style: dotted;
+            border-color: rgba(255, 0, 76, 0.438);
+            animation: index 20s linear;
+        }
+        @keyframes index {
+            from{z-index: 10;}
+            to{z-index: 10;}
+        }
+
+        #po1{left: 30px;}
+        #po2{left: 150px; top: 300px; }
+        #po3{left: 380px;}
+        #po4{left: 550px; top: 300px; }
+        #po5{left: 750px;}
+        #po6{left: 950px; top: 300px; }
+        #po7{left: 1150px;}
+        #po8{left: 1350px; top: 300px; }
+        #po9{left: 1520px;}
+    </style>
+</head>
+<body>
+    <b><a title="Memory Album" href="../Term_Photo.html"><p id="sub">Memory Album</p></a></b>
+    <b><p id="sub2" style="color: rgb(252, 66, 122);"> - PhotoStudio</p></b>
+    <img src="PhotoStudio/PhotoStudio 7.jpg" class="size" id="po1" style="z-index: 1;">
+    <img src="PhotoStudio/PhotoStudio 2.jpg" class="size" id="po2" style="z-index: 2;">
+    <img src="PhotoStudio/PhotoStudio 9.jpg" class="size" id="po3" style="z-index: 3;">
+    <img src="PhotoStudio/PhotoStudio 5.jpg" class="size" id="po4" style="z-index: 4;">
+    <img src="PhotoStudio/PhotoStudio 1.jpg" class="size" id="po5" style="z-index: 5;">
+    <img src="PhotoStudio/PhotoStudio 6.jpg" class="size" id="po6" style="z-index: 6;">
+    <img src="PhotoStudio/PhotoStudio 4.jpg" class="size" id="po7" style="z-index: 7;">
+    <img src="PhotoStudio/PhotoStudio 8.jpg" class="size" id="po8" style="z-index: 8;">
+    <img src="PhotoStudio/PhotoStudio 3.jpg" class="size" id="po9" style="z-index: 9;">
+</body>
+</html>

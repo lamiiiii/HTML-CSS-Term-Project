@@ -1,0 +1,32 @@
+table{
+    text-align: center;
+    border: 2px rgb(65, 65, 65);
+    border-style:double;
+    border-width: 5px;
+    padding: 3px;
+    margin: 20px auto 0px;
+    font-size: 25px;
+}
+caption{
+    color: rgb(20, 20, 59);
+    font-size: 70px;
+}
+a{ 
+    color: rgb(20, 20, 59);
+}
+#bcolor a:hover{ 
+    font-size: 28px; 
+    color: white;
+    background-color:rgb(20, 20, 59);
+}
+iframe{
+    margin: 10px 25% 0px;
+}
+#bcolor {
+    background-color: white;
+}
+#info{
+    margin: 10px 0px 0px 560px;
+    color: red;
+    font-size: 17px;
+}

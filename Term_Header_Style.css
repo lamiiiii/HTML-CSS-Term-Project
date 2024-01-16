@@ -1,0 +1,52 @@
+a{ text-decoration: none; }
+body{
+    height: 100vh;
+    background-color:linen;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    letter-spacing: 0px;
+    position: sticky;
+    top: 0px;
+}
+.he:hover{
+    color: black;
+}
+.he_G{
+    font-size: 130px; font-family:'Courier New', Courier, monospace;
+    color:rgb(255, 0, 98);
+    text-shadow: -5px -5px rgba(255, 0, 98, 0.384);
+}
+.he_Y1{
+    font-size: 130px; font-family:'Courier New', Courier, monospace; 
+    color: rgb(255, 196, 0);
+    text-shadow: -5px -5px rgba(255, 196, 0, 0.384);
+}
+.he_U{
+    font-size: 130px; font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 238, 0);
+    text-shadow: -5px -5px rgba(255, 238, 0, 0.384);
+}
+.he_R{
+    font-size: 130px; font-family:'Courier New', Courier, monospace;
+    color:rgb(187, 255, 0);
+    text-shadow: -5px -5px rgba(187, 255, 0, 0.384);
+}
+.he_I{
+    font-size: 130px; font-family:'Courier New', Courier, monospace;
+    color:rgb(86, 140, 240);
+    text-shadow: -5px -5px rgba(86, 140, 240, 0.384);
+}
+.he_a{
+    font-size: 130px;
+    color:rgb(241, 54, 95); font-family: 'Times New Roman', Times, serif;
+    text-shadow: -5px -5px rgba(241, 54, 95, 0.384);
+}
+.he_s{
+    font-size: 130px; font-family:'Courier New', Courier, monospace;
+    color:rgb(174, 79, 238);
+    text-shadow: -5px -5px rgba(174, 79, 238, 0.384);
+}

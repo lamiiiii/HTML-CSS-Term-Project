@@ -1,0 +1,48 @@
+.sub1{
+    font-size: 70px;
+    animation: subani 0.5s ease-in-out;
+}
+.sub2{
+    color:black;
+    font-size: 45px;
+}
+.sub3{
+    color: rgb(20, 20, 59);
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+}
+@keyframes subani{
+    from{font-size: 70px;}
+    50%{font-size: 90px;}
+    to{font-size: 70px;}
+}
+
+div{
+    width: 100px; height: 40px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    border: 5px ridge rgb(236, 145, 159);
+    margin: 30px 45px 0px;
+    border-radius: 10px;
+    display: inline-block;
+}
+a{ color: rgb(236, 145, 159) }
+div:hover{
+    width: 110px;
+    background-color: rgb(236, 145, 159);
+    text-align: center;
+    font-size: 31px;
+}
+a:hover{ color: white; }
+iframe{
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 350px;
+    border-width: 15px;
+    border-color: navy;
+    background-color: white;
+    color: navy;
+
+}

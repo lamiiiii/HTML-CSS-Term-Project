@@ -1,0 +1,30 @@
+#HB button{
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border-style: double;
+    border-color: rgb(115, 115, 115);
+    color: rgb(115, 115, 115);
+    margin: 0px;
+}
+#HB button:hover{
+    font-size: 22px;
+    border-color: black;
+    color: black;
+}
+#PA button{
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+    background-color: white;
+    border-style: double;
+    border-color: rgb(94, 94, 94);
+    color: rgb(94, 94, 94);
+    margin: 0px;
+}
+#PA button:hover{
+    font-size: 20px;
+    border-color: black;
+    color: black;
+}
